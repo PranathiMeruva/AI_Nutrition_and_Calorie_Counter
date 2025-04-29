@@ -1,21 +1,27 @@
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
-import LandingPage from "./pages/Landingpage";
-import MainPage from "./pages/Mainpage";
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import Home from './pages/Home';
+// import Login from './pages/Login';
+// import Signup from './pages/Signup';
+// import Dashboard from './pages/Dashboard';
 
+// const App = () => {
+//   return (
+//     <Router>
+//       <nav className="bg-blue-600 p-4 text-white flex gap-4">
+//         <Link to="/">Home</Link>
+//         <Link to="/login">Login</Link>
+//         <Link to="/signup">Signup</Link>
+//         <Link to="/dashboard">Dashboard</Link>
+//       </nav>
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/login" element={<Login />} />
+//         <Route path="/signup" element={<Signup />} />
+//         <Route path="/dashboard" element={<Dashboard />} />
+//       </Routes>
+//     </Router>
+//   );
+// };
 
-export default function App() {
-  return (
-    <Router>
-      <Routes>
-        {/* Landing Page */}
-        <Route path="/" element={<LandingPage />} />
-
-        {/* Main Page */}
-        <Route path="/main" element={<MainPage />} />
-
-        {/* Catch-all redirect */}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </Router>
-  );
-}
+// export default App;
